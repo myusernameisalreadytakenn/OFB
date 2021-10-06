@@ -75,3 +75,31 @@ button {
     font-family:Comic Sans MS, Comic Sans, cursive;
 
 }
+.spisok{
+
+    background:rgb(78, 58, 58) ;/* Цвет заднего фона */
+}
+.spisok ol {
+    color:red; /* Цвет текста */
+    list-style: none;
+}
+.spisok li {
+    padding-left: 10%; /* Делаем внутренние отступы слева */
+    margin-top: 10px;  /* Делаем внешние отступы между текстом сверху */
+}
+.kartinka_i_text{
+    display: flex; /* Меняем значение блочного элемента на Flex для того чтор бы позволить тексту обтекать картинку справа */
+    justify-content: flex-start; /* Выравниваем обьекты по началу оси */
+    margin-top: 10px;
+}
+.kartinka_i_text img{
+    width: 400px;  /* ширина картинки */
+    height: 400px; /* высота картинки */
+}
+.kartinka_i_text .text{
+    display: flex; /* Меняем значение блочного элемента на Flex для того чтор бы позволить тексту обтекать картинку справа */
+    align-items: center; /* выравниваем текста по центру  */
+    font-size: 30px; /* Меняем размер шриФта */
+    color:purple; /* Меняем цвет текста */
+    padding-left: 10px;  /* Делаем внешние отступы между текстом и картинкой*/
+}
