@@ -59,7 +59,7 @@
                 <button onclick="location.href='#test17'">ВИСНОВКИ</button>
             </th>
             <th>
-                <div id="text" class="scrollabletextbox" name="note" value="">
+                <div id="text1" class="scrollabletextbox" name="note" value="">
 
                     <p id="test11">Опис предметного середовища</p>
                     Glovo — це додаток, завдяки якому ви можете замовити доставку найкращих продуктів у вашому місті за лічені хвилини. Просто скажіть нам, що вам потрібно, і ми доставимо це, де б ви не були.
@@ -113,6 +113,7 @@
                             <th><img src="glovo2.png"></th>
                             <th><img src="glovo3.png"></th>
                         </tr>
+                        </tr>
                         <tr>
                             <th><span style="font-family: Comic Sans MS, Comic Sans, cursive; "><p>Найкращі ресторани вашого міста</p>У нашому додатку — величезний вибір ресторанів.<p>Замовте свою улюблену їжу або дізнайтеся, про нові ресторани поруч із вами!</p></span></th>
                             <th><span style="font-family: Comic Sans MS, Comic Sans, cursive; "><p>Швидка доставка</p>Наш плюс — швидкість. Замовте доставку в межах міста і ми все доставимо за лічені хвилини.</span></th>
@@ -155,7 +156,7 @@
                         <th><img src="bufet.jpg" border=1></th>
                     </xmp>
                     <p id="test17">ВИСНОВКИ</p>
-                    <p>У цій лабораторній роботі ми визначилися з темою додатку.Попрацювали з тегам для таблиць,картинок,списків, та форм.Була створена головна веб сторінка, на якій розташована головна інформація о проекті та форма зв'язку.Та переход на стрінку з вiдповiями на основнi питання та опис продукту.</p>
+                    <p>У цій лабораторній роботі ми визначилися з темою додатку.Попрацювали з тегам для таблиць,картинок,списків, та форм.Була створена головна веб сторінка, на якій розташована головна інформація о проекті та форма зв'язку.Та переход на стрінку з вiдповiями на основнi питання та опис продукту.</p></tr>
                 </div>
             </th>
         </tr>
@@ -166,16 +167,56 @@
     <table>
         <tr>
             <th>
-                <button onclick="location.href='#test21'">Опис предметного середовища</button>
-                <button onclick="location.href='#test22'">Тема, мета, місце розташування лаби №2</button>
-                <button onclick="location.href='#test23'">Структура документу</button>
-                <button onclick="location.href='#test24'">HTML-код таблиць</button>
-                <button onclick="location.href='#test25'">HTML-код форми</button>
-                <button onclick="location.href='#test26'">HTML-код зображення</button>
-                <button onclick="location.href='#test27'">ВИСНОВКИ</button>
+                <button onclick="location.href='#test21'">Тема, мета, місце розташування лаби №2</button>
+                <button onclick="location.href='#test22'">Списки</button>
+                <button onclick="location.href='#test23'">Iндентифiкатори</button>
+                <button onclick="location.href='#test24'">Вiдступи</button>
+                <button onclick="location.href='#test25'">Плаваючi елементи</button>
+                <button onclick="location.href='#test26'">Селектори</button>
+                <button onclick="location.href='#test27'">Селектори тегу i класу</button>
+                <button onclick="location.href='#test28'">Iншi селектори</button>
+                <button onclick="location.href='#test29'">Групування селекторiв</button>
+                <button onclick="location.href='#test30'">ВИСНОВКИ</button>
             </th>
             <th>
+                <div id="text2" class="scrollabletextbox" name="note" value="">
 
+                    <p id="test21">Тема, мета, місце розташування лаби №2</p>
+                    Місце розташування: <a href="https://github.com/myusernameisalreadytakenn/OFB">github</a>
+                    <p id="test22">Списки</p>
+                    <xmp>
+                        <div class="spisok"> <!-- создание блока с классом  -->
+                            <ol> <!-- создаем нумерованый список -->
+                                <li>Раз</li> <!-- создаем элементы списка -->
+                                <li>Два</li>
+                                <li>Три</li>
+                                <li>Четыре</li>
+                                <li>Пять</li>
+                            </ol>
+                        </div>
+                    </xmp>
+                    <p id="test23">Iндентифiкатори</p>
+                    <xmp>
+                        #identificator{ /* Имя идентификатора */
+                        margin-left: 10px; /* Отступ слева */
+                        width: 225px; /* Ширина блока */
+                        padding: 5px; /* Поля вокруг текста */
+                        background: #8a7878; /* Цвет фона */
+                        font-size: 20px; /* Размер текста */
+                        color:blue; /* Цвет Текста */
+                        }
+                        <div id="identificator"> <!-- Использование идентификатора  -->
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quas dolorum et at, nostrum quae reiciendis voluptates eveniet impedit alias, quaerat esse, cupiditate id quod molestiae quam atque animi eligendi.
+                        </div>
+                    </xmp>
+                    <p id="test24">Вiдступи</p>
+                    <p id="test25">Плаваючi елементи</p>
+                    <p id="test26">Селектори</p>
+                    <p id="test27">Селектори тегу i класу</p>
+                    <p id="test28">Iншi селектори</p>
+                    <p id="test29">Групування селекторiв</p>
+                    <p id="test30">ВИСНОВКИ</p>
+                </div>
             </th>
         </tr>
     </table>
@@ -190,7 +231,9 @@
         }
         let p = document.getElementById(labId);
         p.hidden = false;
-        p = document.getElementById('text');
+        p = document.getElementById('text1');
+        p.hidden = false;
+        p = document.getElementById('text2');
         p.hidden = false;
     }
 </script>
