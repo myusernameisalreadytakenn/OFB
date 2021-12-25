@@ -1,0 +1,152 @@
+button
+{
+    background: transparent;
+    border: transparent;
+    outline: none;
+    cursor: pointer;
+    margin: 50px 90px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #000000;
+    transition: 0.2s;
+}
+button:hover
+{
+    transition: 0.2s;
+    opacity: 0.7;
+}
+button:active
+{
+    transition: 0.2s;
+    opacity: 0.4;
+}
+nav
+{
+    background-color: #966c95;
+    width: 250px;
+    position: relative;
+    left: -999px;
+    transition: 0.5s ease;
+}
+nav ul li
+{
+    padding: 20px 0;
+    text-align: center;
+    transition: 0.2s;
+}
+nav ul li:hover
+{
+    cursor: pointer;
+    background-color: #454954;
+    transition: 0.2s;
+}
+nav ul li:active
+{
+    background-color: #242b23;
+    transition: 0.2s;
+}
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.header-i {
+    font-size:35px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #966c8a;
+    margin: 2vh;
+}
+
+.header-p {
+    font-size:35px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2ee919;
+}
+
+.x-row-inline >*  {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 40px;
+}
+
+.input-row input, .input-row textarea {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 300;
+    color: #19e9e2;
+    text-align: left;
+    background-color: transparent;
+    border-bottom: 1px solid #19e9d8;
+    padding: 0 0 0;
+    position: relative;
+    z-index: 2;
+}
+button, input, select, textarea {
+    border-radius: 0;
+    outline: none;
+    border: none;
+}
+.input-row {
+    margin: 0 0 40px;
+    padding: 0 15px;
+    position: relative;
+}
+.input-row .label {
+    font-size: 16px;
+    font-weight: 300;
+    color: #e91950;
+    transform: translate(15px,-3px);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+input-row .line {
+    display: block;
+    width: 0;
+    /* height: 1px; */
+    background-color: #1842ce;
+    position: absolute;
+    left: 15px;
+    bottom: 0;
+}
+.x-row-inline >*  {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 40px;
+}
+
+input[type=submit].sendData:hover {
+    background-color: #6c7d96;
+    color: #00ff04;
+}
+input[type=submit].sendData {
+    display: inline-block;
+    max-width: 260px;
+    min-width: 180px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #6c7d96;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 1px solid #6c7d96;
+    border-radius: 2px;
+    padding: 10px 20px;
+    position: relative;
+    overflow: hidden;
+    left:5vw;
+}
+
+#dataForm{
+    margin: 15vh;
+}

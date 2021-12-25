@@ -1,0 +1,147 @@
+#dataForm{
+    position: relative;
+    bottom: 600px;
+}
+
+.header-l{
+    font-size:35px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}    
+
+
+.header-p {
+    font-size:35px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.text-p {
+    font-size:20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+    
+.input-row input, .input-row textarea {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 300;
+    color: #000000;
+    text-align: left;
+    background-color: transparent;
+    border-bottom: 1px solid #000000;
+    padding: 0 0 0;
+    position: relative;
+    z-index: 1;
+}
+button, input, select, textarea {
+    border-radius: 0;
+    outline: none;
+    border: none;
+}
+.input-row {
+    margin: 0 0 40px;
+    padding: 0 15px;
+    position: relative;
+}
+.input-row .label {
+    font-size: 16px;
+    font-weight: 300;
+    color: #000000;
+    transform: translate(15px,-3px);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+input-row .line {
+    display: block;
+    width: 0;
+    /* height: 1px; */
+    background-color: #030303;
+    position: absolute;
+    left: 15px;
+    bottom: 0;
+    z-index: 1;
+}
+.x-row-inline >*  {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 40px;
+}
+#message{
+    width: 80%;
+}
+input[type=submit].sendData:hover {
+    background-color: #000000;
+    color: white;
+}
+input[type=submit].sendData {
+    display: inline-block;
+    max-width: 260px;
+    min-width: 180px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #050505;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    padding: 10px 20px;
+    position: relative;
+    overflow: hidden;
+}
+.formText{
+    color: white;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+#perevoz{
+    height: 100vh;
+    background-image:linear-gradient(to top, rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('https://deltaexpressinc.com/wp-content/uploads/2020/09/OBC1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.table-r {
+    margin-top: 75px;
+    padding: 10vh;
+}
+
+.header-text-r {
+    font-size:18px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 5vh;
+
+}
+
+input[type=submit].sendData:hover {
+    background-color: #000000;
+    color: white;
+}
+input[type=submit].sendData {
+    display: inline-block;
+    max-width: 260px;
+    min-width: 180px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    padding: 10px 20px;
+    position: relative;
+    left: 20vh;
+    overflow: hidden;
+}
+
