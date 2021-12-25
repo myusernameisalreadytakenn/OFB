@@ -1,0 +1,15 @@
+table {
+    table-layout: fixed;
+    width: 70vh;
+    border-collapse: collapse;
+    border: 3px solid #31BCFE;
+    margin: auto;
+  }
+
+.header-table {
+    font-size:18px;
+    text-align: center;
+    color: linear-gradient(94.01deg, #31BCFE -1.25%, #8F7BAD 55.18%, #D9486D 100%); 
+    position: relative;
+    left: -3vh;
+}
