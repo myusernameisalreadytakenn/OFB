@@ -1,0 +1,43 @@
+#find-more-block{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    bottom: 0px;
+    margin-top: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background:#ffc244;
+    width: 100%;
+    height: 700px;
+}
+
+#company-title{
+    margin-top: 400px;
+    margin-left: 200px;
+    width: 100%;
+    height: 30px;
+    float: left;
+}
+
+#h3 {
+    color: whitesmoke;
+    font-size: 70px;
+    margin-top: -200px;
+    color: #00a082;
+}
+
+#company-metrics{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+}
+
+#text {
+    display: flex;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-right: 60px;
+    padding-left: 60px;
+}
