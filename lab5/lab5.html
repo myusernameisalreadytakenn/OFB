@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <title>HTML5</title>
+  <link rel="stylesheet" href="lab5.css">
+  <link rel="stylesheet" href="jquery-ui.css">
+ </head>
+ <body>
+    <div class="popup-block">
+        <div class="popup-img">
+        </div>
+        <div class="popup-title">
+            Datepicker
+        </div>
+
+        <form action="" class="popup__form" id="popup__form">
+            <label class="input input_int">
+                <input type="text" placeholder="Ціле число *" name="integer">
+            </label>
+            <label class="input input_float">
+                <input type="text" placeholder="Дійсне число *" name="float">
+            </label>
+            <label class="input input_password input_briefcase_br">
+                <input type="text" placeholder="Пароль*" name="password">
+            </label>
+            <label class="input input_password2 input_briefcase_city">
+                <input type="text" placeholder="Введіть ще раз пароль *" name="password2">
+            </label>
+            <label class="input input__data">
+                <input type="text" id="datepicker" placeholder="Дата" name="data1">
+            </label>
+
+            <div class="popup__explanation">
+                Всі поля обов'язкові для заповнення
+            </div>
+            <button class="button button_color popup-button">
+                Надіслати
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 1L10 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M21 1L14 21L10 12L1 8L21 1Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+            </button>
+        </form>
+    </div>
+    <div class="popup-title">
+        Accordion
+    </div>
+
+    <div id="accordion">
+        <h3>Почему стоит заняться веб-разработкой?
+        </h3>
+        <div>
+          <p>
+            Сейчас в просторах интернета масса всевозможных инструкций, онлайн-курсов, 
+            примеров с наглядными иллюстрациями. И в принципе, создать что-то новое при 
+            помощи этих мануалов не так уж сложно. Веб-разработка открывает широкие, почти 
+            безграничные возможности для творчества. Конечно, языки программирования, не 
+            заточенные под веб, тоже позволяют реализовать много интересного, но, как мне кажется,
+             в среде веб-разработки сделать это гораздо проще.
+          </p>
+        </div>
+        <h3>С чего начать?</h3>
+        <div>
+          <p>
+            Прежде всего нужно понять и разобраться как построена веб-страница. Для этого необходимо
+             знание HTML-тегов, или хотя бы большей части из них. Именно они формируют страницу. Тегов 
+             довольно много, но на практике обычно используются 30-40, а иногда и меньше.
+             После того, как вы переварите теги, время приступить к изучению атрибутов для каждого тега.
+          </p>
+        </div>
+        <h3>Что дальше?</h3>
+        <div>
+          <p>
+            После этого следует приступать к изучению CSS-стилей. Что это такое? Простыми словами, это стили 
+            к HTML-тегам, которые располагаются на веб-странице. Стилей гораздо больше, чем HTML-тегов. Но это и
+             хорошо, так как вы можете создавать абсолютно разные варианты с одним и тем же тегом. Стили нужно знать,
+              и чем больше, тем лучше.
+          </p>
+        </div>
+        <h3>Несколько полезных советов</h3>
+        <div>
+          <p>
+            Если вы освоили технологию HTML и CSS, то попробуйте создать на своём локальном компьютере какой-нибудь 
+            простенький сайт. Ещё несколько полезных советов:
+          </p>
+          <ul>
+            <li>Всегда уделяйте особое внимание путям (URL) к файлам или к картинкам.</li>
+            <li>Советую хорошо ознакомиться с DOM</li>
+            <li>Постарайтесь подтянуть английский язык.</li>
+           </ul>
+        </div>
+      </div>
+      <div class="popup-title">
+        Tabs
+      </div>
+      <div class="blockImg">
+        15 ошибок или советов HTML и CSS
+      </div>
+      <div id="tabs">
+        <ul>
+          <li><a href="#tabs-1">W3C Validator</a></li>
+          <li><a href="#tabs-2">Одинаковые id у нескольких элементов</a></li>
+          <li><a href="#tabs-3">Стили в HTML</a></li>
+        </ul>
+        <div id="tabs-1">
+          <p>Рекомендуется проверять HTML и CSS сайта через сервис validator.w3.org. Данный сервис просканирует код и отобразит ошибки, например: не закрыт тег; не рекомендованные символы в ссылках; используется не рекомендованный тег; не указан обязательный атрибут;</p>
+        </div>
+        <div id="tabs-2">
+          <p>Значение атрибута id в HTML-коде не должно повторяться.</p>
+        </div>
+        <div id="tabs-3">
+          <p>HTML предназначен для вывода информации (текст, картинки). Оформления контента (изменить размер, цвет, шрифт) происходит в CSS.</p>
+          
+        </div>
+      </div>
+      <div class="footer-social-links">
+        <p class="gps"><img class="gps-logo" src="images/gps-logo.png">01001 Киев, КПИ, ФИОТ</p>
+        <button class="icons et-icon-facebook"><img class="facebook-logo" src="images/facebook-icon.png"></button>
+        <button class="icons et-icon-instagram"><img class="instagram-logo" src="images/instagram-icon.png"></button>
+        <button class="icons et-icon-twitter"><img class="twitter-logo" src="images/twitter-icon.png"></button>
+        <button class="icons et-icon-pinterest"><img class="pinterest-logo" src="images/pinterest-icon.png"></button>
+      </div>
+
+       
+      </body>
+      </html>
+    <script src="jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+    <script src="lab5.js"></script>
+</body>
+    
+</html>
